@@ -30,6 +30,7 @@
                 <div class="modal-body">
                     <!-- Formulario Modal -->
                     <form id="login-usuario-form">
+                        <span id="msgAlertErroLogin"></span>
                         <div class="mb-3">
                             <label for="email" class="col-form-label">Usuário:</label>
                             <input type="text" name="email" class="form-control" placeholder="Digite o seu usuário" id="email">
@@ -49,6 +50,8 @@
     </div>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- Incluindo o script do arquivo JavaScript, abre o navegador em cód fonte e clique no src do script, para testar se ele está indo para o script -->
+    <script src="js/custom.js"></script>
 </body>
 
 </html>
