@@ -1,5 +1,6 @@
 <?php
 
+include_once "conexao.php";
 // Atribuindo os dados e passando para todas String em uma variável
 $dados = filter_input_array(INPUT_POST, FILTER_DEFAULT);
 

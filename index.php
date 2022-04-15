@@ -1,3 +1,11 @@
+<?php
+// Para testar a inclusão da conexão;
+//include_once "conexao.php";
+// Gerar senha
+//print_r("<br>");
+//echo password_hash("123456", PASSWORD_DEFAULT);
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
